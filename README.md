@@ -46,9 +46,9 @@ $ npm install
 $ npm run dev:server
 
 5. _O servidor inciará na porta:3000_  
-acesse http://localhost:3333 
+acesse http://localhost:3333  
 
 _A porta utilizada é 3000_ - acesse http://localhost:3000  
 
-
+_________________________________________________________________________  
 :shield: Este projeto esta sob a licença MIT.
