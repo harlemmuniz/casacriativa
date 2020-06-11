@@ -16,10 +16,10 @@ entre outras, cadastrando boas idéias que elas possuem para ajudar outras pesso
 
 ### :electron: Técnologias utilizadas
 
-[Javascript](https://www.javascript.com/)
-[NodeJS](https://nodejs.org/)
-[Nunjucks](https://mozilla.github.io/nunjucks/)
-[Express](https://expressjs.com/)
+* [Javascript](https://www.javascript.com/)
+* [NodeJS](https://nodejs.org/)
+* [Nunjucks](https://mozilla.github.io/nunjucks/)
+* [Express](https://expressjs.com/)
 
 
 ### :gear: Executando o projeto
