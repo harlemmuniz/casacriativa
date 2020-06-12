@@ -48,3 +48,40 @@ button:hover {
     list-style: none;
     margin-right: 16px;
 }
+
+@media (max-width: 1125px) {
+    #page-index #container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'intro' 'lastideas' 'footer';
+    }
+
+    #page-index header {
+        text-align: center;
+    }
+
+    #page-index #intro {
+        margin: 0;
+        width: 100%;
+        grid-area: intro;
+    }
+
+    #page-index #intro main {
+        text-align: center;
+        margin: 0px;
+    }
+
+    #page-index #last-ideas {
+        margin-top: 32px;
+        grid-area: lastideas;
+    }
+
+    #page-index footer {
+        margin-top: 32px;
+        grid-area: footer;
+    }
+
+    #page-index #title {
+        margin: 0 0 32px 0;
+    }
+}
