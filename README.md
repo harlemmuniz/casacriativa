@@ -1,4 +1,4 @@
-## ![Logo da Casa Criativa](/assets/logo.png)  
+## ![Logo da Casa Criativa](/public/assets/logo.png)  
 
 ### :construction: Em construção :hammer_and_wrench:  
 
