@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Todas as Idéias</title>
+    {% include "headcontent.html" %}
+    <link rel="stylesheet" href="/css/ideas.css">
+</head>
+
+
+<body>
+    <div id="page-ideas">
+        <div id="container">
+            <header>
+                <a href="/">
+                    <img src="/assets/logo.png" alt="Imagem da Logomarca">
+                </a>
+                <nav>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="#" class="button" onclick="onOff()">Nova Idéia</a></li>
+                </nav>
+            </header>
+
+            <section id="ideas">
+                <section id="title">
+                    <p>em exibição</p>
+                    <h1>Todas as idéias</h1>
+                </section>
+                {% include "allideas.html" %}
+            </section>
+
+            {% include "footer.html" %}
+
+        </div>
+    </div>
+
+    {% include "modal.html" %}
+
+    <script src="/scripts/scripts.js"></script>
+
+</body>
+
+</html>
