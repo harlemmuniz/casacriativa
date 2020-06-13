@@ -21,15 +21,15 @@ li {
 #page-ideas nav li a {
     color: #25282b;
 }
-  
+
 #page-ideas nav li a.button {
     color: white;
 }
-  
+
 #page-ideas nav li:last-child {
     margin: 0;
 }
-  
+
 .idea {
     margin: 0;
 }
@@ -47,14 +47,13 @@ footer {
     }
 }
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
     #page-ideas header {
-         flex-direction: column;
-         align-items: center;
-         text-align: center;
-         justify-content: center;
-    } 
-
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
     #page-ideas header nav {
         margin-top: 16px;
         align-items: center;

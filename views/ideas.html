@@ -3,7 +3,7 @@
 
 <head>
     <title>Todas as Idéias</title>
-    {% include "headcontent.html" %}
+    {% include "partials/headcontent.html" %}
     <link rel="stylesheet" href="/css/ideas.css">
 </head>
 
@@ -15,7 +15,7 @@
                     <img src="/assets/logo.png" alt="Imagem da Logomarca">
                 </a>
 
-                <nav class="submenu">
+                <nav>
                     <li><a href="/">Início</a></li>
                     <li><a href="#" class="button" onclick="onOff()">Nova Idéia</a></li>
                 </nav>
@@ -29,7 +29,7 @@
                 {% include "allideas.html" %}
             </section>
 
-            {% include "footer.html" %}
+            {% include "partials/footer.html" %}
 
         </div>
     </div>
