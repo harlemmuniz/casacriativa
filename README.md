@@ -21,7 +21,8 @@ _________________________________________________________________________
 * [Javascript](https://www.javascript.com/)
 * [NodeJS](https://nodejs.org/)
 * [Nunjucks](https://mozilla.github.io/nunjucks/)
-* [Express](https://expressjs.com/)  
+* [Express](https://expressjs.com/)
+* [SQLite3](https://www.sqlite.org/)  
 
 _________________________________________________________________________
 
