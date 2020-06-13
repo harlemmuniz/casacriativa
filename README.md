@@ -43,11 +43,10 @@ $ cd casacriativa
 3. _Instale as dependências_  
 $ npm install
 
-4. _Execute a aplicação em modo de desenvolvimento_  
-$ npm run start
+4. _Execute a aplicação_  
+$ npm start
 
 5. _O servidor inciará na porta:3000_  
-acesse http://localhost:3333  
 
 _A porta utilizada é 3000_ - acesse http://localhost:3000  
 
