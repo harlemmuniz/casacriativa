@@ -10,17 +10,17 @@
     justify-content: center;
     transition: 400ms;
 }
-  
+
 #modal .content {
     margin-top: 64px;
     color: white;
 }
-  
+
 #modal .content h1 {
     text-align: center;
     text-transform: uppercase;
 }
-  
+
 #modal form {
     width: 80%;
     max-width: 800px;
@@ -34,13 +34,13 @@
     opacity: 0;
     visibility: hidden;
 }
-  
+
 #modal .content form div:nth-child(3),
 #modal .content form div:nth-child(4),
 #modal .content form div:nth-child(5) {
     grid-column: span 2;
 }
-  
+
 #modal form input,
 #modal form textarea {
     width: 100%;
@@ -51,13 +51,13 @@
     outline: none;
     font-size: 16px;
 }
-  
+
 #modal form label {
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0.8px;
 }
-  
+
 #modal form a {
     width: 150px;
     height: 40px;
@@ -72,13 +72,13 @@
     align-self: end;
     transition: 400ms;
 }
-  
+
 #modal form a:hover {
     background-color: #fff;
     color: #ff5e84;
     text-decoration: none;
 }
-  
+
 #modal form button {
     background-color: white;
     width: 150px;
@@ -90,11 +90,15 @@
     justify-self: end;
     transition: 400ms;
 }
-  
+
 #modal form button:hover {
     background-color: #0984e3;
     color: white;
     text-decoration: none;
+}
+
+#modal.addScroll {
+    overflow: auto;
 }
 
 @media (max-width: 410px) {

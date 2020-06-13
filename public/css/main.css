@@ -4,18 +4,23 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-  
+
+body.hideScroll {
+    overflow: hidden;
+}
+
 a {
-    color:#25282b;
+    color: #25282b;
     font-weight: bold;
     text-decoration: none;
 }
-  
+
 a:hover {
     text-decoration: underline;
 }
-  
-p, .description {
+
+p,
+.description {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.1px;
@@ -46,12 +51,12 @@ button {
     justify-content: center;
     box-shadow: 8px 8px 16px #ff5e8432;
 }
-  
+
 .button:hover {
     background-color: #0984e3;
     text-decoration: none;
 }
-  
+
 #container {
     width: 80%;
     max-width: 980px;
@@ -72,13 +77,13 @@ button {
     padding: 32px;
     margin-bottom: 20px;
 }
-  
+
 .idea img {
     width: 60px;
     height: 60px;
     margin-right: 32px;
 }
-  
+
 .idea h3 {
     margin: 0;
 }
@@ -87,12 +92,12 @@ button {
     margin: 0;
     color: #777;
 }
-  
+
 .idea p {
     margin: 8px 0;
     color: #777;
 }
-  
+
 .idea .description {
     margin: 16px 0;
 }
@@ -112,7 +117,7 @@ footer {
     color: #777;
     margin: 32px;
 }
-  
+
 footer a {
     opacity: 0.7;
 }
