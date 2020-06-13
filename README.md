@@ -6,13 +6,15 @@ Projeto desenvolvido no Workshop Dev com a equipe da [Rocketseat](https://rocket
 
 Casa Criativa é uma plataforma de ajudar as pessoas no confinamento durante a pandemia do Covid-19.
 
-As pessoas poderão dar idéias de formas de ocupar o tempo como:  
+![Imagem da Aplicação da Casa Criativa](myfolder/casacriativa.png)  
 
-1. atividades físicas 
-2. estudos 
-3. meditações  
+As pessoas poderão dar idéias de formas de ocupar o tempo, indicando links de onde podem ter acesso aos conteúdos indicados como:  
 
-entre outras, cadastrando boas idéias que elas possuem para ajudar outras pessoas.  
+1. atividades físicas;
+2. estudos;
+3. meditações;  
+
+entre outros.  
 
 _________________________________________________________________________
 
@@ -33,6 +35,7 @@ O projeto é dividido em duas partes:
 * Back End
 * Front End
 
+Para inicializar o projeto:
 
 1. _Clone este repositório_  
 $ git clone https://github.com/harlemmuniz/casacriativa
@@ -43,12 +46,13 @@ $ cd casacriativa
 3. _Instale as dependências_  
 $ npm install
 
-4. _Execute a aplicação_  
-$ npm start
+4. _Execute a aplicação no modo desenvolvimento_  
+$ npm run dev
 
 5. _O servidor inciará na porta:3000_  
 
 _A porta utilizada é 3000_ - acesse http://localhost:3000  
 
-_________________________________________________________________________  
+_________________________________________________________________________ 
+
 :shield: Este projeto esta sob a licença MIT.
